@@ -98,8 +98,8 @@ jobs:
 
     - name: Install feeds & make .config
       run: |
-        ./scripts/feeds install -a
-        make menuconfig
+        cd openwrt && ./scripts/feeds install -a
+        cd openwrt && make menuconfig
 
     - name: Compile the firmware
       id: compile
