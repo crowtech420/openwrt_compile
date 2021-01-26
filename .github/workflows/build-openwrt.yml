@@ -20,7 +20,7 @@ on:
         default: 'true'
 
 env:
-  REPO_URL: https://github.com/crowtech420/openwrt_redmi_ac2100
+  REPO_URL: https://github.com/crowtech420/openwrt
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
